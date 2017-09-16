@@ -1,0 +1,46 @@
+table {
+    font-size: 12px;
+    font-variant: normal;
+    border: 2px ridge grey;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td:nth-child(-n+1) {
+    border: 2px ridge grey;
+    padding: 5px 5px 5px 5px;
+    color: black;
+}
+
+td:nth-child(n+2):nth-child(-n+7) {
+    border: 2px ridge grey;
+    padding: 6px;
+    color: red;
+}
+
+tr {
+    border: 2px ridge grey;
+    padding: 20px;
+}
+
+th {
+    border: 2px ridge grey;
+    padding: 6px;
+}
+
+
+#tituloTabela {
+    line-height: 1px;
+    border: 2px ridge grey;
+    padding: 0% 4% 4% 4% ;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    
+}
+
+#divisor {
+    border: 2px ridge grey;
+    padding: 2%;
+    color: black;
+}
