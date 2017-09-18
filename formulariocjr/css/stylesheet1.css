@@ -1,0 +1,21 @@
+body {
+    font-size: 20px
+}
+
+input {
+    color: grey;
+    font-size: 13px;
+}
+
+textarea {
+    color: grey;
+}
+
+.blocos {
+    padding: 0 0 2% 0;
+}
+
+#botoes {
+    border-radius 25%;
+    background-color: white;
+}

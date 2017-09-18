@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário CJR</title>
+    <link rel="stylesheet" href="css/stylesheet1.css">
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <div>
+        <form name="formulario">
+            <div class="blocos">
+                <div>
+                    <label>Nome:</label>
+                    <input id="nome" type="text" value="Nome" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                </div>
+
+                <div>
+                    <label>Email:</label>
+                    <input id="email" type="text" value="Email" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                </div>
+
+                <div>
+                    <label>Senha:</label>
+                    <input id="senha" type="password" value="" onfocus="if(this.value=='this.defaultValue')this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                </div>
+            </div>
+            <div class="blocos"><label>Sexo:</label>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Masculino</label>
+                </div>
+
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Feminino</label>
+                </div>
+            </div>
+            <div class="blocos">
+                <label>Tecnologias:</label>
+                <div>
+                    <label><input type="checkbox" >HTML</label>
+                </div>
+
+                <div>
+                    <label><input type="checkbox" >CSS</label>
+                </div>
+
+                <div>
+                    <label><input type="checkbox" >Java</label>
+                </div>
+
+                <div>
+                    <label><input type="checkbox" >PHP</label>
+                </div>
+            </div>
+
+            <div class="blocos"><label>Descrição Pessoal:</label>
+                <div class="descricao">
+                    <textarea rows="4" cols="20" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Digite aqui...</textarea>
+                </div>
+            </div>
+            <div class="blocos">
+                <label>Opção:</label>
+                <select id="opcao">
+                <option>Opção 1</option>
+                <option>Opção 2</option>
+                <option>Opção 3</option>
+                <option>Opoção 4</option>
+            </select>
+            </div>
+            <div id="botoes">
+
+                <input type="submit" value="Enviar">
+                <br>
+                <input type="reset" value="Limpar">
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
