@@ -1,27 +1,61 @@
 .container{
-
+    border: 2px solid pink;
+    margin: 0 10% 0 10%;
 }
 
 
 .box-container{
+    border: 2px solid green;
+    margin: 1%;
+}
+
+#box1 {
+    border: 2px solid black;
+    margin: 2%;
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+#box2{
+    border: 2px solid black;
+    margin: 2%;
+    width: 10%;
+    height: 10%;
+    float: left;
+    clear: none;
+}
+
+#box3{
+    border: 2px solid black;
+    margin: 2%;
+    width: 10%;
+    height: 10%;
+    float: left;
+    clear: none;
 
 }
 
-.box{
-
-}
-
-#box-center{
-
-
+.clearfix:before, .clearfix:after {
+    content: "antes e depois";
+    display: table;
+    border: 2px solid blue;
 }
 
 .clearfix{
+    clear: both;
+    border: 2px solid red;
+    margin: 1%;
+    padding: 1%;
 
 }
 
 
 .text-container{
+    border: 2px solid purple;
+    margin: 2%;
+    width: 10%;
+    height: 10%;
 
 }
 
