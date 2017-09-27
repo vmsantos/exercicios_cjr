@@ -1,0 +1,39 @@
+body {
+  width: 300px;
+  margin: 5em auto;
+}
+.sorriso {
+  display: block;
+  background: yellow;
+  border-radius: 100%;
+  border: solid black;
+  height: 300px;
+  width: 300px;
+  margin: 0;
+}
+
+.olho1 {
+background: black;
+border-radius: 100%;
+width: 10%;
+height: 10%;
+margin: 25% 25%;
+float: right;
+}
+
+.olho2 {
+background: black;
+border-radius: 100%;
+width: 10%;
+height: 10%;
+margin: 25% 25%;  
+
+}
+
+.boca {
+background-color: black;
+height: 0.5em;
+width: 35%;
+border-radius: 50%;
+margin: 0 33%;
+}
